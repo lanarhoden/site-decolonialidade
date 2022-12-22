@@ -23,16 +23,15 @@ body {
 	min-height: 100vh; /* Force vertical centering since the content won't always be taller than the viewport */
 	padding: 2rem; /* Using rem values as they don't cascade like em units and are not fixed units like pixels */
 
-	background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.6)), url('https://upload.wikimedia.org/wikipedia/commons/0/0d/Joaqu%C3%ADn_Torres_Garc%C3%ADa_-_Am%C3%A9rica_Invertida.jpg'); 
+	
 	background-position: center center;
 	background-size: cover;
+	background-image: linear-gradient(#ff5b5b, #f58936), url('Illustration9.png'); 
+	background-blend-mode: multiply; 
 }
 
 
-body {
-		background-image: linear-gradient(#ff5b5b, #f58936), url('Illustration9.png'); 
-		background-blend-mode: multiply; 
-	}
+
 
 
 h1 {
@@ -57,6 +56,14 @@ h1 {
 		max-height: 15rem; 
 
 		background-image: url('https://upload.wikimedia.org/wikipedia/commons/0/0d/Joaqu%C3%ADn_Torres_Garc%C3%ADa_-_Am%C3%A9rica_Invertida.jpg');
+		background-size: cover; 
+		background-position: center center; 
+	}
+
+	.card__image2-container {
+		height: 40rem;
+
+		background-image: url('Decolonialidade\,\ Educação\ e\ Antirracismo\ -\ capa.jpeg');
 		background-size: cover; 
 		background-position: center center; 
 	}
